@@ -1,0 +1,161 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+    font-family: "Work Sans", sans-serif;
+    background-color: #fff;
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: url(/Photos/think-out-box-concepts-with-lightbulb-box\ 1.png);
+    background-size:cover;
+    object-fit: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.banner-text{
+    text-transform: capitalize;
+    text-align: right;
+    margin-right:  150px;
+}
+.banner-text h1{
+    margin-bottom: 25px;
+    font-size: 65px;
+    color: #ffffff;
+}
+.banner-text p{
+    font-size: 16px;
+    color: #ffffff;
+    line-height: 26px;
+    margin-bottom: 20px;
+}
+.btn{
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 15px 25px;
+    color: #005fac;
+    border-radius: 5px;
+    border: none;
+}
+.my-failures{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+.my-failures .f-text{
+     display: flex;
+     flex-direction: column;
+     gap: 10px;
+     text-transform: capitalize;
+}
+.f-text h2{
+    font-size: 40px;
+}
+.f-text span i{
+    color: #00ac6a;
+    margin-right: 5px;
+}
+
+
+.my-failures .img{
+    height: 400px;
+    width: 400px;
+    background-color:#F3F3F3;
+    border-radius:  5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img img{
+    height: 400px;
+}
+.i-have-plan{
+    height: 100vh;
+    width: 100%;
+    padding-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+.plans{
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+.plan{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.plan-img{
+    position: relative;
+}
+.plan-img .pinfo{
+    position: absolute;
+    top: 70px;
+    left: 70px;   
+}
+.pinfo h2{
+    font-size: 35px;
+    margin-bottom: 15px;
+    color: #ffffff;
+}
+.footer{
+    height: 50vh;
+    width: 100%;
+    padding: 100px;
+    background: #151414;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #ffffff;
+}
+.future{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.future .social i{
+    cursor: pointer;
+    color: #005fac;
+    background-color: #F3F3F3;
+    height: 30px;width: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.form form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+}
+.form form .email{
+    height: 40px;
+    width: 250px;
+    border: 1px solid #ffffff;
+    background: transparent;
+    padding: 5px;
+    border-radius: 5px;
+}
+.form form .btn{
+    width: 150px;
+    background-color: #005fac;
+    color: #ffffff;
+}
+
+
+
